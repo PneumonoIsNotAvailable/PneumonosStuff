@@ -16,7 +16,7 @@ public class PneumonosStuff implements ModInitializer {
 	public static final IntegerConfiguration HUG_HEALTH_PER_MINUTE = Configs.register(new IntegerConfiguration(MOD_ID, "hug_health_per_minute", ConfigEnv.SERVER, 0, 240, 30));
 	public static final BooleanConfiguration REDSTONE_QUACKING = Configs.register(new BooleanConfiguration(MOD_ID, "redstone_quacking", ConfigEnv.SERVER, true));
 	public static final BooleanConfiguration DISABLE_ELYTRA = Configs.register(new BooleanConfiguration(MOD_ID, "disable_elytra", ConfigEnv.SERVER, false));
-	public static final FloatConfiguration BEACON_RANGE_MULTIPLIER = Configs.register(new FloatConfiguration(MOD_ID, "beacon_range_multiplier", ConfigEnv.SERVER, 1));
+	public static final IntegerConfiguration BEACON_RANGE_MULTIPLIER = Configs.register(new IntegerConfiguration(MOD_ID, "beacon_range_multiplier", ConfigEnv.SERVER, 0, 10, 1));
 	public static final BooleanConfiguration JUKEBOX_LOOPING = Configs.register(new BooleanConfiguration(MOD_ID, "jukebox_looping", ConfigEnv.SERVER, false));
 	public static final BooleanConfiguration CONDUIT_PROTECTION = Configs.register(new BooleanConfiguration(MOD_ID, "conduit_protection", ConfigEnv.SERVER, false));
 
