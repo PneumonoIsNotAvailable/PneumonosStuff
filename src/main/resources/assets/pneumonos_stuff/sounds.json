@@ -1,0 +1,24 @@
+{
+    "item.rubber_duck.quack": {
+        "subtitle": "subtitles.pneumonos_stuff.item.rubber_duck.quack",
+        "sounds": [
+            "pneumonos_stuff:quack"
+        ]
+    },
+    "item.plushie.squeak": {
+        "subtitle": "subtitles.pneumonos_stuff.item.plushie.squeak",
+        "sounds": [
+            "pneumonos_stuff:squeak1",
+            "pneumonos_stuff:squeak2"
+        ]
+    },
+    "item.cat_ears.equip": {
+        "sounds": [
+            "dig/cloth1",
+            "dig/cloth2",
+            "dig/cloth3",
+            "dig/cloth4"
+        ],
+        "subtitle": "subtitles.pneumonos_stuff.item.cat_ears.equip"
+    }
+}

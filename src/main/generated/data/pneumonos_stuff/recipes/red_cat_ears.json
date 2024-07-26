@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": {
+      "item": "minecraft:red_wool"
+    }
+  },
+  "pattern": [
+    "WWW",
+    "W W"
+  ],
+  "result": {
+    "item": "pneumonos_stuff:red_cat_ears"
+  },
+  "show_notification": true
+}

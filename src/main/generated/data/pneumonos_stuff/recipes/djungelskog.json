@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:brown_wool"
+    },
+    "L": {
+      "item": "minecraft:black_wool"
+    }
+  },
+  "pattern": [
+    " B ",
+    "BLB",
+    "BBB"
+  ],
+  "result": {
+    "item": "pneumonos_stuff:djungelskog"
+  },
+  "show_notification": true
+}

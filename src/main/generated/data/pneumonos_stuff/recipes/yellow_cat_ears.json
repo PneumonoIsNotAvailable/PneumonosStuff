@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": {
+      "item": "minecraft:yellow_wool"
+    }
+  },
+  "pattern": [
+    "WWW",
+    "W W"
+  ],
+  "result": {
+    "item": "pneumonos_stuff:yellow_cat_ears"
+  },
+  "show_notification": true
+}

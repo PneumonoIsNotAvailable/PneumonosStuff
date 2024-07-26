@@ -1,0 +1,6 @@
+{
+  "parent": "pneumonos_stuff:item/template_cat_ears",
+  "textures": {
+    "layer0": "pneumonos_stuff:item/light_blue_cat_ears"
+  }
+}

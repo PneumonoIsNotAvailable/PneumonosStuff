@@ -1,0 +1,21 @@
+{
+	"parent": "pneumonos_stuff:item/glow_squid",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [40, -15, -3],
+			"translation": [-2, 0.25, 5.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [40, -15, -3],
+			"translation": [-2, 0.25, 5.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 134, 0],
+			"translation": [4.75, 0.75, -5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 134, 0],
+			"translation": [4.75, 0.75, -5]
+		}
+	}
+}

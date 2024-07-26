@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": {
+      "item": "minecraft:light_blue_wool"
+    }
+  },
+  "pattern": [
+    "WWW",
+    "W W"
+  ],
+  "result": {
+    "item": "pneumonos_stuff:light_blue_cat_ears"
+  },
+  "show_notification": true
+}

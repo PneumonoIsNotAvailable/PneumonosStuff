@@ -1,0 +1,13 @@
+{
+    "parent": "pneumonos_stuff:item/axolotl",
+    "display": {
+        "firstperson_righthand": {
+            "rotation": [-82, 163, 42],
+            "translation": [5.25, 1, -5.5]
+        },
+        "firstperson_lefthand": {
+            "rotation": [-82, 163, 42],
+            "translation": [5.25, 1, -5.5]
+        }
+    }
+}

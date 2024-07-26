@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "minecraft:note_block"
+    },
+    "Y": {
+      "item": "minecraft:yellow_wool"
+    }
+  },
+  "pattern": [
+    " Y ",
+    "YNY",
+    "YYY"
+  ],
+  "result": {
+    "item": "pneumonos_stuff:rubber_duck"
+  },
+  "show_notification": true
+}

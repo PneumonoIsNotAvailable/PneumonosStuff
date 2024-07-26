@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "pneumonos_stuff",
+	"version": "${version}",
+	"name": "Pneumono's Stuff",
+	"description": "Adds a bunch of assorted stuff",
+	"authors": [
+		"Pneumono_"
+	],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/pneumonos_stuff/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"pneumono.pneumonos_stuff.PneumonosStuff"
+		],
+		"client": [
+			"pneumono.pneumonos_stuff.PneumonosStuffClient"
+		],
+		"fabric-datagen": [
+			"pneumono.pneumonos_stuff.PneumonosStuffDataGenerator"
+		],
+		"modmenu": [
+			"pneumono.pneumonos_stuff.PneumonosStuffModMenu"
+		]
+	},
+	"mixins": [
+		"pneumonos_stuff.mixins.json",
+		{
+			"config": "pneumonos_stuff.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}

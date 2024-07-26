@@ -1,0 +1,21 @@
+{
+    "parent": "pneumonos_stuff:item/blahaj",
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [142, -23, 125],
+            "translation": [-7.75, 2.75, 2.75]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [142, -23, 125],
+            "translation": [-7.75, 2.75, 2.75]
+        },
+        "firstperson_righthand": {
+            "rotation": [-74, 154, 69],
+            "translation": [7, 2.75, -2.25]
+        },
+        "firstperson_lefthand": {
+            "rotation": [-74, 154, 69],
+            "translation": [7, 2.75, -2.25]
+        }
+    }
+}

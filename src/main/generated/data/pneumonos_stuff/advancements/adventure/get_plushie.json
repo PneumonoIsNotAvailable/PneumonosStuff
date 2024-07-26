@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "has_plushie": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "pneumonos_stuff:plushies"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "pneumonos_stuff.advancements.get_plushie.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "pneumonos_stuff:djungelskog"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "pneumonos_stuff.advancements.get_plushie.name"
+    }
+  },
+  "requirements": [
+    [
+      "has_plushie"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

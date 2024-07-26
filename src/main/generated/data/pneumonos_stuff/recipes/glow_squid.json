@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:cyan_wool"
+    },
+    "G": {
+      "item": "minecraft:glow_ink_sac"
+    }
+  },
+  "pattern": [
+    "CGC",
+    "CGC"
+  ],
+  "result": {
+    "item": "pneumonos_stuff:glow_squid"
+  },
+  "show_notification": true
+}

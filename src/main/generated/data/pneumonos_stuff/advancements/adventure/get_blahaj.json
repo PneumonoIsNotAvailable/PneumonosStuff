@@ -1,0 +1,38 @@
+{
+  "parent": "pneumonos_stuff:adventure/get_plushie",
+  "criteria": {
+    "has_blahaj": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pneumonos_stuff:blahaj"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "pneumonos_stuff.advancements.get_blahaj.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "pneumonos_stuff:blahaj"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "pneumonos_stuff.advancements.get_blahaj.name"
+    }
+  },
+  "requirements": [
+    [
+      "has_blahaj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

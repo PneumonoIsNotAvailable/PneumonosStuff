@@ -1,0 +1,22 @@
+Adds some assorted stuff I didn't feel deserved its own mod. Mostly for a server I'm on. All of these features are configurable, so when you look at something here and think it's awful, you can just turn it off.
+
+- Plushies
+  - Can be cuddled which heals you 
+  - Blåhaj! Djungelskog!
+- Rubber ducks
+  - quack.ogg
+  - Can be triggered with redstone
+  - Calibrated Rubber Ducks can have the quack pitches changed via right-click, like note blocks.
+  - Includes a 'Ducks Quacked' statistic, because yes
+- Cat Ears
+  - It's funny because they're Cat Ears
+  - Can be enchanted with any helmet enchantments, but provide no protection on their own
+  - Can be enchanted with curse of binding and can be equipped with dispensers. You know what to do.
+- Beacon range configurability
+  - Self-explanatory
+- Elytra disabling
+  - Works by making them always "broken", so they're still collectable as trophy items and for the advancement
+- Jukebox looping
+  - Jukeboxes will only loop discs if there isn't a hopper underneath, so that hoppers still do their thing
+- Conduits apply 'Conduit Protection' when on land
+  - Both Conduit Protection and Conduit Power prevent hydrophobic origins from the Origins mod from taking damage from water

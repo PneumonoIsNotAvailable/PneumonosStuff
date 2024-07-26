@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "pneumono.pneumonos_stuff.mixin.client",
+	"compatibilityLevel": "JAVA_17",
+	"client": [
+		"BipedEntityModelMixin",
+		"PlayerEntityRendererMixin",
+		"HeldItemFeatureRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

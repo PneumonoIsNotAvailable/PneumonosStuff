@@ -1,0 +1,15 @@
+{
+	"parent": "pneumonos_stuff:item/fox",
+	"textures": {
+		"0": "pneumonos_stuff:item/snow_fox",
+		"particle": "pneumonos_stuff:item/snow_fox"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"hugging": 1
+			},
+			"model": "pneumonos_stuff:item/snow_fox_hugging"
+		}
+	]
+}

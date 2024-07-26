@@ -1,0 +1,21 @@
+{
+	"parent": "pneumonos_stuff:item/snow_fox",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-55, -180, 15],
+			"translation": [-1.75, 2.75, -0.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-55, -180, 15],
+			"translation": [-1.75, 2.75, -0.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [-66, 157, 34],
+			"translation": [6.25, -0.25, -7.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-66, 157, 34],
+			"translation": [6.25, -0.25, -7.5]
+		}
+	}
+}
