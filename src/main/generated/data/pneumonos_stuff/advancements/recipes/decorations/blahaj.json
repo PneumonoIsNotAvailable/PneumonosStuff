@@ -46,9 +46,9 @@
   },
   "requirements": [
     [
-      "has_light_blue_wool",
-      "has_pink_wool",
       "has_white_wool",
+      "has_pink_wool",
+      "has_light_blue_wool",
       "has_the_recipe"
     ]
   ],

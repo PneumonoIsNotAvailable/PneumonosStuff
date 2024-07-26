@@ -34,8 +34,8 @@
   },
   "requirements": [
     [
-      "has_yellow_wool",
       "has_note_block",
+      "has_yellow_wool",
       "has_the_recipe"
     ]
   ],
