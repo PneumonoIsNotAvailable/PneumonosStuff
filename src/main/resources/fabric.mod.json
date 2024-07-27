@@ -7,7 +7,10 @@
 	"authors": [
 		"Pneumono_"
 	],
-	"contact": {},
+	"contact": {
+		"sources": "https://github.com/PneumonoIsNotAvailable/PneumonosStuff",
+		"issues": "https://github.com/PneumonoIsNotAvailable/PneumonosStuff/issues"
+	},
 	"license": "MIT",
 	"icon": "assets/pneumonos_stuff/icon.png",
 	"environment": "*",
