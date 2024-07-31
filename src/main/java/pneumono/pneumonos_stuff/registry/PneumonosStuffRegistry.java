@@ -16,6 +16,7 @@ import pneumono.pneumonos_stuff.PneumonosStuff;
 
 public class PneumonosStuffRegistry {
     public static final TagKey<Item> TAG_PLUSHIES = TagKey.of(RegistryKeys.ITEM, PneumonosStuff.identifier("plushies"));
+    public static final TagKey<Item> TAG_CAT_EARS = TagKey.of(RegistryKeys.ITEM, PneumonosStuff.identifier("cat_ears"));
 
     public static void registerPneumonosStuffContent() {
         PneumonosStuffStats.registerPneumonosStuffStats();

@@ -34,8 +34,8 @@
   },
   "requirements": [
     [
-      "has_glow_ink_sac",
       "has_cyan_wool",
+      "has_glow_ink_sac",
       "has_the_recipe"
     ]
   ],

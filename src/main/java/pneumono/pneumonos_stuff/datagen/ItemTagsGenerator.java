@@ -16,9 +16,14 @@ public class ItemTagsGenerator extends FabricTagProvider.ItemTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
-        FabricTagBuilder builder = getOrCreateTagBuilder(PneumonosStuffRegistry.TAG_PLUSHIES);
+        FabricTagBuilder plushiesBuilder = getOrCreateTagBuilder(PneumonosStuffRegistry.TAG_PLUSHIES);
         for (Item item : PneumonosStuffItems.PLUSHIES) {
-            builder.add(item);
+            plushiesBuilder.add(item);
+        }
+
+        FabricTagBuilder catEarsBuilder = getOrCreateTagBuilder(PneumonosStuffRegistry.TAG_CAT_EARS);
+        for (Item item : PneumonosStuffItems.CAT_EARS) {
+            catEarsBuilder.add(item);
         }
     }
 }

@@ -34,8 +34,8 @@
   },
   "requirements": [
     [
-      "has_pink_wool",
       "has_string",
+      "has_pink_wool",
       "has_the_recipe"
     ]
   ],
