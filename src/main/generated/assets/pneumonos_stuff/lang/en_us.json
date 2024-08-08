@@ -52,8 +52,8 @@
   "pneumonos_stuff.advancements.get_blahaj.name": "Blåhaj go Spinny",
   "pneumonos_stuff.advancements.get_plushie.desc": "Find or Craft your first Plushie",
   "pneumonos_stuff.advancements.get_plushie.name": "Squimshy",
-  "pneumonos_stuff.ducks_quacked": "Ducks Quacked",
-  "pneumonos_stuff.time_hugging_plushies": "Time Hugging Plushies",
+  "stat.pneumonos_stuff.ducks_quacked": "Ducks Quacked",
+  "stat.pneumonos_stuff.time_hugging_plushies": "Time Hugging Plushies",
   "subtitles.pneumonos_stuff.item.cat_ears.equip": "Cat Ears rustle",
   "subtitles.pneumonos_stuff.item.plushie.squeak": "Plushie squeaks",
   "subtitles.pneumonos_stuff.item.rubber_duck.quack": "Rubber duck quacks"

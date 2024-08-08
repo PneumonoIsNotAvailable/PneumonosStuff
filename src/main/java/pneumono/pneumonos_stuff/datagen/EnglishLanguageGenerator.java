@@ -50,8 +50,8 @@ public class EnglishLanguageGenerator extends FabricLanguageProvider {
 
         builder.add("itemGroup.pneumonos_stuff.pneumonos_stuff", "Pneumono's Stuff");
 
-        builder.add(PneumonosStuffStats.TIME_HUGGING_PLUSHIES, "Time Hugging Plushies");
-        builder.add(PneumonosStuffStats.DUCKS_QUACKED, "Ducks Quacked");
+        builder.add("stat.pneumonos_stuff." + PneumonosStuffStats.TIME_HUGGING_PLUSHIES.getPath(), "Time Hugging Plushies");
+        builder.add("stat.pneumonos_stuff." + PneumonosStuffStats.DUCKS_QUACKED.getPath(), "Ducks Quacked");
 
         builder.add(PneumonosStuffEffects.CONDUIT_AURA, "Conduit Aura");
 

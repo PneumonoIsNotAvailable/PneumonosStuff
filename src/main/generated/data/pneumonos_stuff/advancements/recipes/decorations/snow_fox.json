@@ -34,8 +34,8 @@
   },
   "requirements": [
     [
-      "has_white_wool",
       "has_emerald",
+      "has_white_wool",
       "has_the_recipe"
     ]
   ],

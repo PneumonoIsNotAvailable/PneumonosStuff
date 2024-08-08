@@ -58,10 +58,10 @@
   },
   "requirements": [
     [
-      "has_note_block",
-      "has_redstone",
-      "has_comparator",
       "has_rubber_duck",
+      "has_comparator",
+      "has_redstone",
+      "has_note_block",
       "has_the_recipe"
     ]
   ],
