@@ -17,6 +17,7 @@ import pneumono.pneumonos_stuff.content.models.containers.AsymmetricalModelConta
 import pneumono.pneumonos_stuff.content.models.containers.ModelContainerFunction;
 import pneumono.pneumonos_stuff.content.models.containers.PlushieModelContainer;
 import pneumono.pneumonos_stuff.content.models.containers.SingleModelContainer;
+import pneumono.pneumonos_stuff.registry.HeadItemConditions;
 import pneumono.pneumonos_stuff.registry.PneumonosStuffBlocks;
 import pneumono.pneumonos_stuff.registry.PneumonosStuffItems;
 
@@ -43,6 +44,8 @@ public class PneumonosStuffClient implements ClientModInitializer {
 				});
 			}
 		}
+
+		HeadItemConditions.registerVanillaHeadItemConditions();
 	}
 
 	public static void registerClientPlushies() {

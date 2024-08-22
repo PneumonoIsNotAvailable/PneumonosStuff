@@ -9,6 +9,7 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+import pneumono.pneumonos_stuff.content.HeadItemFeatureRenderer;
 import pneumono.pneumonos_stuff.content.HeldPlushieFeatureRenderer;
 
 @Mixin(PlayerEntityRenderer.class)
@@ -21,5 +22,6 @@ public abstract class PlayerEntityRendererMixin extends LivingEntityRenderer<Abs
     @Inject(method = "<init>", at = @At("TAIL"))
     private void addPlushieFeatureRenderer(EntityRendererFactory.Context ctx, boolean slim, CallbackInfo info) {
         this.addFeature(new HeldPlushieFeatureRenderer<>(this, ctx.getHeldItemRenderer()));
+        this.addFeature(new HeadItemFeatureRenderer<>(this, ctx.getHeldItemRenderer()));
     }
 }
