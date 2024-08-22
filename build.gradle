@@ -59,6 +59,9 @@ dependencies {
 
 	// ModMenu
 	modImplementation "com.terraformersmc:modmenu:${project.modmenu_version}"
+
+	// Trinkets
+	modCompileOnly "dev.emi:trinkets:${trinkets_version}"
 }
 
 processResources {

@@ -6,6 +6,7 @@ import net.minecraft.util.Identifier;
 import net.pneumono.pneumonocore.config.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import pneumono.pneumonos_stuff.compat.Compat;
 import pneumono.pneumonos_stuff.registry.PneumonosStuffRegistry;
 
 public class PneumonosStuff implements ModInitializer {
@@ -25,6 +26,7 @@ public class PneumonosStuff implements ModInitializer {
 		LOGGER.info("Initializing Pneumono's Stuff");
 		Configs.reload(MOD_ID);
 		PneumonosStuffRegistry.registerPneumonosStuffContent();
+		Compat.register();
 	}
 
 	public static Identifier identifier(String path) {
